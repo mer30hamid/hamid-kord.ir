@@ -1,4 +1,47 @@
-baseURL = "http://example.org/"
+baseURL = "https://hamid-kord.ir/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+title = "حمید کرد"
+theme = "m10c"
+paginate = 10
+
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "خونه"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "برچسب ها"
+    url = "/tags/"
+    weight = 2
+
+[params]
+    author = "حمید کرد"
+    description = "فول استک دولوپر / جاوا اسکریپت 💛  پی اچ پی لاور 🤮 / می نویسم گهگاهی / به دنبال یافتن وسط زمین / سیس ادمین هم نیستم و نمی خوام باشم 😫"
+	tweet = true
+    # avatar = "test.jpg"
+    # menu_item_separator = "-"
+    # favicon = "ttt.jpg"
+	menu_item_separator = " + "
+	[[params.social]]
+        icon = "github"
+		name = "گیتهاب حمید کرد"
+		url = "https://github.com/mer30hamid"
+
+    [[params.social]]
+        icon = "twitter"
+        name = "توییتر حمید کرد"
+        url = "https://twitter.com/mer30hamid"
+  # Green theme
+    [params.style]
+        darkestColor = "#315659"
+		darkColor = "#253031"
+		lightColor = "#96a879"
+		lightestColor = "#fff"
+		primaryColor = "#dad865"
+	
+		
+[markup.goldmark.renderer]
+    unsafe= true
