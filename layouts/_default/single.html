@@ -55,7 +55,7 @@
     </div>
     <div class="post-footer">
       {{/* template "_internal/disqus.html" . */}}
-	  {{ if .Params.tweet }}
+	  {{ if and (.Params.tweet) (not .Site.IsServer)}}
         <div class="container has-background-white">
 		  <div class="section">
 		    <h2 class="title is-4">تبادل نظر در توییتر:</h2>
