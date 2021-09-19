@@ -40,6 +40,7 @@ Nana C++ Library طراحی شده تا برای برنامه نویسی چند 
 **مهمترین ویژگی: رایگان**  
 Nana C++ Library متن باز است. از آن می توانید بطور رایگان هم در مصارف تجاری و هم در مصارف غیر تجاری استفاده کنید.  
 
-برگرفته از [Preliminary Study of Nana C++ Library](http://sourceforge.net/p/nanapro/blog/2012/11/preliminary-study-of-nana-c-library/){:target="_blank"}
+برگرفته از [Preliminary Study of Nana C++ Library](http://sourceforge.net/p/nanapro/blog/2012/11/preliminary-study-of-nana-c-library/)
 
-وبسایت کتابخانه: [http://nanapro.org](http://nanapro.org){:target="_blank"}
+وبسایت کتابخانه: [http://nanapro.org](http://nanapro.org)
+
