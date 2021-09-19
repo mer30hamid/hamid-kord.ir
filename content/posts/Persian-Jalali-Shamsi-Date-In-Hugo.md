@@ -44,9 +44,9 @@ tweet: https://twitter.com/mer30hamid/status/1439633119196303363
 {{ $shamsi.Get "year" }}/{{$shamsi.Get "month"}}/{{$shamsi.Get "day"}}
 ```
 
-راستش نمی دونم تا چه حد دقیق تونستم تبدیلش کنم، حالا این گیست رو هم گذاشتم، اگه بهبودی میشه داد، تغییر رو بهم بگید:
+راستش نمی دونم تا چه حد دقیق تونستم تبدیلش کنم، حالا [این گیست رو هم گذاشتم](https://gist.github.com/mer30hamid/e178b58f3a0959e3a4b40d12c74d7cf4)، اگه بهبودی میشه داد، تغییر رو بهم بگید.
 
-https://gist.github.com/mer30hamid/e178b58f3a0959e3a4b40d12c74d7cf4
+
 
 
 
