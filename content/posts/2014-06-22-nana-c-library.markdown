@@ -9,27 +9,101 @@ date: 2014-06-22T22:09:36+04:30
 
 **آسان یاد بگیر، آسان استفاده کن**   
 ایجاد یک برنامه Hello World با Nana چقدر آسونه؟
-<script src="https://gist.github.com/0207cd9bc087cfb01738.js"> </script>  
+```c++
+#include <nana/gui/wvl.hpp>
+#include <nana/gui/widgets/label.hpp>
+
+int main()
+{
+    using namespace nana::gui;
+    form fm;
+    label lb(fm, fm.size());
+    lb.caption(L"Hello, World");
+    fm.show();
+    exec();
+}
+```
 
 خیلی آسان، با کدهای قابل فهم. Nana از مفاهیم قابل درک و ساده برای آسان کردن این کار استفاده می کنه. در ثانی ، برخلاف چارچوب های دیگر، که باعث می شه شما با دشواری کد بنویسید که علتش قواعد و دستورالعمل های سخت در نامگذاری و مقید شدن به دستور زبان خاص هست. Nana باعث می شه کد شما سرراست و قابل خواندن بشه. مثلا پاسخ دادن به یک رویداد یا event  
 
-<script src="https://gist.github.com/79bf699e467cf347b50d.js"> </script>  
+```c++
+#include <nana/gui/wvl.hpp>
+#include <nana/gui/widgets/button.hpp>
+
+void clicked(const nana::gui::eventinfo&)
+{
+    //When the window corresponds to fm is clicked,
+    //this function will be “called”.
+}
+
+int main()
+{
+    using namespace nana::gui;
+    form fm;
+    fm.make_event<events::click>(clicked);
+    fm.show();
+    exec();
+}
+```
 
 نام تابع کلیک شده یک نام اجباری نیست، هر نامی که می خواهید می توانید بهش بدید. این روش خیلی سرراست تر از روش پیاده سازی یک event handler از وراثت یا همان inheritance در برنامه شماست. در برخی شرایط ، اصلا پارامتر تابع clicked() اهمیتی ندارد. مانند این مثال  
 
-<script src="https://gist.github.com/d1c73e0405e3b06cd3e1.js"> </script>  
+```c++
+void clicked() //NO parameter defined.
+{
+    //When the form is clicked,
+    //this function will be “called”.
+}
+```
 
 بسیار انعطاف پذیره، باعث می شه کد شما ساده بمونه، و این ویژگی می تونه با شیء تابعی هم عملی بشه (function object)
 
 **چه چیزی باعث می شه Nana انقدر قابل انعطاف بشه؟**  
 Nana C++ Library حاوی هیچ کامپایلر اضافی برای تفسیر یک دستورزبان خاص نیست. Nana بطور 100% از C++ و تکنیک های الگویی یا همان template استفاده می کنه که باعث می شه این کتابخانه بسیار قدرتمند و قابل انعطاف بشه. Nana بر خلاف کتابخانه های مبتنی بر الگو دیگر که سبب تورم فراوان در کد نویسی می شوند و لازم است که برنامه نویسان با برنامه های مبتنی بر الگو آشنایی داشتنه باشند، نیست و مناسب تازه کاران طراحی شده.
 Nana کاملا بر اساس استیل <i dir="ltr" style="direction: ltr;"><code>C++</code></i> پایه گذاری شده و قابل اجرا بر روی Visual C++7.1/GCC 3.4 و نسخه های جدیدتر آنان می باشد. اگر یک برنامه نویس حرفه ای در <i dir="ltr" style="direction: ltr;"><code>C++</code></i> هستید، Nana به شما اجازه استفاده از لاندا یا همان lambda را می دهد، ویژگی جدید در C++11 ، برای پاسخ به رویداد ها. مثل این
-<script src="https://gist.github.com/1aa4352dabf160e2820e.js"> </script>
+```c++
+fm.make_event<events::click>([]{
+        //When the form is clicked, the object created
+        //by this lambda will be “called”.
+});
+
+//or
+
+fm.make_event<events::click>([](const eventinfo& ei){
+        //When the form is clicked, the object created
+        //by this lambda will be “called”, and I can
+        //read the parameter.
+});
+```
 علاوه بر این، Nana با اسفتاده از std::bind در C++11 باعث انعطاف پذیری در کد هم می شود.
 
 **Threading (تردینگ)**  
 Nana از یک کتابخانه thread-safe بوده و دسترسی به یک ابزارک یا widget بین تردها نرمال شده است. این یک ویژگی عالیه که باعث می شه برنامه نویس پاسخ رویداد رو به ترد دیگر بسادگی ارسال کنه.
-<script src="https://gist.github.com/c03d1a958ee247aa763e.js"> </script>
+```c++
+#include <nana/gui/wvl.hpp>
+#include <nana/threads/pool.hpp>
+
+void foo()
+{
+    //This function will be “called” in other
+    //thread that is created by thread pool.
+}
+
+int main()
+{
+    using namespace nana::gui;
+    using namespace nana::threads;
+
+    pool thrpool;
+    form fm;
+    fm.make_event<events::click>(pool_push(thrpool, foo));
+    fm.make_event<events::click>(pool_push(thrpool, []{
+                //A lambda is also allowed.
+            }));
+    fm.show();
+    exec();
+}
+```
 
 **RAII**  
 یک ویژگی مهم که در مثال های بالا نشان داده شد، به محض ایجاد شیء، پنجره وابسته به آن نیز ایجاد می شود و پنجره تا وقتی که show() به شیء فرم فراخوانی نشود مخفی باقی می ماند، و به محض اینکه شیء فرم از بین برود، پنجره وابسته به این نیز بسته می شود. این امر از ایده object life-time در <i dir="ltr" style="direction: ltr;"><code>C++</code></i> پیروی می کند.
