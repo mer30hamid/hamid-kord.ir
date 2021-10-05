@@ -19,7 +19,7 @@ paginate = 10
 
 [params]
     author = "حمید کرد"
-    description = "منتظر یک فرشته واقعی"
+    description = "وبلاگ شخصی حمید کرد، توسعه دهنده نرم افزار، علاقه مند به موضوعات مربوط به دنیای فناوری"
 	tweet = true
     # avatar = "test.jpg"
     # menu_item_separator = "-"
