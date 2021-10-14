@@ -34,14 +34,19 @@ paginate = 10
         icon = "twitter"
         name = "توییتر حمید کرد"
         url = "https://twitter.com/mer30hamid"
-  # Green theme
-    [params.style]
-        darkestColor = "#315659"
-		darkColor = "#253031"
-		lightColor = "#96a879"
-		lightestColor = "#fff"
-		primaryColor = "#dad865"
-	
+		
+	[[params.social]]
+        icon = "layers"
+		name = "استک اورفلو حمید کرد"
+		url = "https://stackoverflow.com/users/1379624/hamid-kurd"
+	[[params.social]]
+        icon = "linkedin"
+		name = "لینکداین حمید کرد"
+		url = "https://www.linkedin.com/in/hamid-kord/"
+	[[params.social]]
+        icon = "hash"
+		name = "هشنود حمید کرد"
+		url = "https://hn.hamid-kord.ir/"
 		
 [markup.goldmark.renderer]
     unsafe= true
