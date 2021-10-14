@@ -8,7 +8,7 @@ paginate = 10
 [menu]
   [[menu.main]]
     identifier = "home"
-    name = "خونه"
+    name = "خانه"
     url = "/"
     weight = 1
   [[menu.main]]
@@ -16,37 +16,43 @@ paginate = 10
     name = "برچسب ها"
     url = "/tags/"
     weight = 2
+  [[menu.main]]
+    identifier = "RSS"
+    name = "RSS"
+    url = "/index.xml"
+    weight = 2
 
 [params]
     author = "حمید کرد"
     description = "وبلاگ شخصی حمید کرد، توسعه دهنده نرم افزار، علاقه مند به موضوعات مربوط به دنیای فناوری"
-	tweet = true
+    tweet = true
     # avatar = "test.jpg"
     # menu_item_separator = "-"
     # favicon = "ttt.jpg"
-	menu_item_separator = " + "
-	[[params.social]]
+    menu_item_separator = " - "
+    [[params.social]]
         icon = "github"
-		name = "گیتهاب حمید کرد"
-		url = "https://github.com/mer30hamid"
+        name = "گیتهاب حمید کرد"
+        url = "https://github.com/mer30hamid"
 
     [[params.social]]
         icon = "twitter"
         name = "توییتر حمید کرد"
         url = "https://twitter.com/mer30hamid"
-		
-	[[params.social]]
+
+    [[params.social]]
         icon = "layers"
-		name = "استک اورفلو حمید کرد"
-		url = "https://stackoverflow.com/users/1379624/hamid-kurd"
-	[[params.social]]
+        name = "استک اورفلو حمید کرد"
+        url = "https://stackoverflow.com/users/1379624/hamid-kurd"
+    [[params.social]]
         icon = "linkedin"
-		name = "لینکداین حمید کرد"
-		url = "https://www.linkedin.com/in/hamid-kord/"
-	[[params.social]]
+        name = "لینکداین حمید کرد"
+        url = "https://www.linkedin.com/in/hamid-kord/"
+    [[params.social]]
         icon = "hash"
-		name = "هشنود حمید کرد"
-		url = "https://hn.hamid-kord.ir/"
-		
+        name = "هشنود حمید کرد"
+        url = "https://hn.hamid-kord.ir/"
+
+        
 [markup.goldmark.renderer]
     unsafe= true
