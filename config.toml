@@ -1,5 +1,5 @@
 baseURL = "https://hamid-kord.ir/"
-languageCode = "en-us"
+languageCode = "fa"
 title = "حمید کرد"
 theme = "m10c"
 paginate = 10
