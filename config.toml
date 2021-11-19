@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "حمید کرد"
 theme = "m10c"
 paginate = 10
-
+enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
