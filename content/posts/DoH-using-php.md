@@ -65,10 +65,7 @@ else if (isset($_GET['dns']))
 2. فایل اسکریپت رو با نام dns-query.php داخل فولدر ریشه هاست بگذارید، طوری که اگر مثلا آدرس سایت شما www.yourdomain.com باشه، باید بصورت زیر از اینترنت بشه بهش دسترسی داشت:
 `www.yourdomain.com/dns-query.php`
 3. داخل فایل `.htaccess` که اون هم داخل فولدر ریشه سایت هست، این کد رو قرار بدین، این برای اینه که پسوند php از آخر آدرس شما حذف بشه، چرا؟ چون داخل اکثر کلاینت ها نباید پسوند انتهای آدرس باشه
-
-
 ```
-# .htaccess 
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
 ```
