@@ -67,7 +67,7 @@ https://github.com/NotMikeDEV/DoH/blob/master/dns.php
 3. داخل فایل `.htaccess` که اون هم داخل فولدر ریشه سایت هست، این کد رو قرار بدین، این برای اینه که پسوند php از آخر آدرس شما حذف بشه، چرا؟ چون داخل اکثر کلاینت ها نباید پسوند انتهای آدرس باشه
 
 
-```htaccess
+```
 # .htaccess 
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
