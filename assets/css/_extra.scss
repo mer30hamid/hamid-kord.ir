@@ -16,7 +16,4 @@ body {
 
 .pagination,pre {direction: ltr; background: black}
 
-/*
-.app-header{left:auto; right:0}
-.app-container{margin-right: auto; margin-right: 20rem}
-*/
+pre {text-align: left; border-left: 0.4em solid rgba(87,204,138,.8); padding: 0.5em 1em;}
