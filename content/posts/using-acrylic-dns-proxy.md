@@ -47,7 +47,8 @@ IgnoreNegativeResponsesFromSecondaryServer=No
 
 هر قسمت از اسمش معلوم هست چه کاربردی دارد. در سایت رسمی نرم افزار خط به خط هر یک از تنظیمات بالا توضیح داده شده:
 
-https://mayakron.altervista.org/support/acrylic/Configuration.htm
+[مستندات کانفیگ نرم افزار](https://mayakron.altervista.org/support/acrylic/Configuration.htm)
+
 
 در نمونه بالا به کلمات Primary و Secondary توجه کنید. مابقی محتوای کانفیگ نیازی به تغییر ندارد. کانفیگی که من الان دارم استفاده می کنم این هست، می توانید کامل کپی کنید:
 
