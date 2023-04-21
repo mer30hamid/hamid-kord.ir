@@ -67,6 +67,7 @@ else if (isset($_GET['dns']))
 
 
 ```
+RewriteEngine on
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
 ```
