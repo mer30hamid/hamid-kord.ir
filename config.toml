@@ -9,29 +9,28 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    identifier = "home"
-    name = "خانه"
-    url = "/"
-    weight = 1
-  [[menu.main]]
     identifier = "tags"
     name = "برچسب ها"
     url = "/tags/"
-    weight = 2
+    weight = 1
+    [menu.main.params]
+      icon = "tag"
+
   [[menu.main]]
     identifier = "RSS"
-    name = "RSS"
+    name = "فید RSS"
     url = "/index.xml"
     weight = 2
+    [menu.main.params]
+      icon = "rss"
 
 [params]
     author = "حمید کرد"
     Description = "وبلاگ شخصی حمید کرد، توسعه دهنده نرم افزار، علاقه مند به موضوعات مربوط به دنیای فناوری"
     tweet = true
     # avatar = "test.jpg"
-    # menu_item_separator = "-"
     # favicon = "ttt.jpg"
-    menu_item_separator = " - "
+    menu_item_separator = " | "
     [[params.social]]
         icon = "github"
         name = "گیتهاب حمید کرد"
