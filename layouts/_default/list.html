@@ -1,6 +1,6 @@
 {{ define "main" }}
   <article>
-    <h1>نوشته های من</h1>
+    <h1>{{ if $.IsHome }} نوشته های من {{ else }} برچسب: {{ .Title }} {{ end }}</h1>
     <ul class="posts-list">
       {{ range where .Paginator.Pages "Type" "!=" "page" }}
         <li class="posts-list-item">
