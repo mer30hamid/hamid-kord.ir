@@ -56,6 +56,10 @@ body {
 	margin-left: .4em
 }
 
+.post-meta>div {
+    flex-wrap: wrap;
+}
+
 .posts-list-item-description>.icon {
 	margin: 0 .4em 0 .4em;
 }
