@@ -31,11 +31,11 @@
 			  {{ $shamsi.Set "day" (add (mod (sub (int ($shamsi.Get "gn")) 336) 29) 1) }}
 			{{ end }}
 		  
-            {{ partial "icon.html" (dict "ctx" $ "name" "calendar") }}
+            {{ partial "icon.html" (dict "ctx" $ "name" "calendar" "title" "تاریخ انتشار") }}
             {{/* .PublishDate.Format "Jan 2, 2006" */}}
 			{{ $shamsi.Get "year" }}/{{$shamsi.Get "month"}}/{{$shamsi.Get "day"}}
             -
-            {{ partial "icon.html" (dict "ctx" $ "name" "clock") }}
+            {{ partial "icon.html" (dict "ctx" $ "name" "clock" "title" "زمان تقریبی مطالعه") }}
             {{ .ReadingTime }} دقیقه
           </span>
         </li>
