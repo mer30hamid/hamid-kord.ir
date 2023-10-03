@@ -31,6 +31,7 @@ enableRobotsTXT = true
     # avatar = "test.jpg"
     # favicon = "ttt.jpg"
     menu_item_separator = " | "
+
     [[params.social]]
         icon = "github"
         name = "گیتهاب حمید کرد"
@@ -39,14 +40,10 @@ enableRobotsTXT = true
         icon = "cloud"
         name = "بلواسکای حمید کرد"
         url = "https://staging.bsky.app/profile/hamid-kord.ir"
-    [[params.social]]
-        icon = "twitter"
-        name = "توییتر حمید کرد"
-        url = "https://twitter.com/mer30hamid"
-    [[params.social]]
-        icon = "layers"
-        name = "استک اورفلو حمید کرد"
-        url = "https://stackoverflow.com/users/1379624/hamid-kurd"
+    # [[params.social]]
+    #     icon = "layers"
+    #     name = "استک اورفلو حمید کرد"
+    #     url = "https://stackoverflow.com/users/1379624/hamid-kurd"
     [[params.social]]
         icon = "linkedin"
         name = "لینکداین حمید کرد"
@@ -55,7 +52,10 @@ enableRobotsTXT = true
     #     icon = "hash"
     #     name = "هشنود حمید کرد"
     #     url = "https://hn.hamid-kord.ir/"
-
+    [[params.social]]
+        icon = "twitter"
+        name = "توییتر حمید کرد"
+        url = "https://twitter.com/mer30hamid"
         
 [markup.goldmark.renderer]
     unsafe= true
