@@ -35,12 +35,14 @@ enableRobotsTXT = true
         icon = "github"
         name = "گیتهاب حمید کرد"
         url = "https://github.com/mer30hamid"
-
+    [[params.social]]
+        icon = "cloud"
+        name = "بلواسکای حمید کرد"
+        url = "https://staging.bsky.app/profile/hamid-kord.ir"
     [[params.social]]
         icon = "twitter"
         name = "توییتر حمید کرد"
         url = "https://twitter.com/mer30hamid"
-
     [[params.social]]
         icon = "layers"
         name = "استک اورفلو حمید کرد"
@@ -49,10 +51,10 @@ enableRobotsTXT = true
         icon = "linkedin"
         name = "لینکداین حمید کرد"
         url = "https://www.linkedin.com/in/hamid-kord/"
-    [[params.social]]
-        icon = "hash"
-        name = "هشنود حمید کرد"
-        url = "https://hn.hamid-kord.ir/"
+    # [[params.social]]
+    #     icon = "hash"
+    #     name = "هشنود حمید کرد"
+    #     url = "https://hn.hamid-kord.ir/"
 
         
 [markup.goldmark.renderer]
