@@ -58,4 +58,12 @@ enableRobotsTXT = true
         url = "https://twitter.com/mer30hamid"
         
 [markup.goldmark.renderer]
-    unsafe= true
+  unsafe= true
+
+[markup.highlight]
+  #style = 'monokai'
+  #style = 'rrt'
+  #style = 'xcode-dark'
+  #style = 'fruity'
+  style = 'dracula'
+  
