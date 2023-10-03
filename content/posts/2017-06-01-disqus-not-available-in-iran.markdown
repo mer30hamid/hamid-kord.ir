@@ -4,7 +4,7 @@ title: مسدود بودن سایت Disqus.com در ایران
 layout: post
 tags: [عمومی]
 date: 2017-06-01 11:08:01 +0430
-tweet: https://x.com/mer30hamid/status/1439630961595994116
+tweet: https://twitter.com/mer30hamid/status/1439630961595994116
 ---
 
 
