@@ -1,6 +1,6 @@
 # [hamid-kord.ir](https://hamid-kord.ir/)
 
-[![Vercel Status](https://therealsujitk-vercel-badge.vercel.app/?app=hamid-kord-ir)](https://therealsujitk-vercel-badge.vercel.app/?app=hamid-kord-ir)
+[![Vercel Status](https://therealsujitk-vercel-badge.vercel.app/?app=hamid-kord-ir)](https://github.com/mer30hamid/hamid-kord.ir/deployments)
 
 This is my personal website built with [Hugo](https://gohugo.io/) and deployed to [Vercel](https://vercel.com/).
 
