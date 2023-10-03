@@ -66,4 +66,25 @@ enableRobotsTXT = true
   #style = 'xcode-dark'
   #style = 'fruity'
   style = 'dracula'
+
+# [params.style]
+#   darkestColor = "#181F1C"
+#   darkColor = "#274029"
+#   lightColor = "#BFD1E5"
+#   lightestColor = "#EEEEEE"
+#   primaryColor = "#73E2A7"
   
+#[params.style]
+#  darkestColor = "#383F17"
+#  darkColor = "#6A4A23"
+#  lightColor = "#E0C14F"
+#  lightestColor = "#FBD19D"
+#  primaryColor = "#FFF"
+  
+#[params.style]
+#  darkestColor = "#515A47"
+#  darkColor = "#050517"
+#  lightestColor = "#FEFCFB"
+#  
+#  lightColor = "#AFE"
+#  primaryColor = "#AFF"

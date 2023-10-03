@@ -1,3 +1,4 @@
+/*
 @font-face {
   font-family: Vazir;
   src: url('../fonts/vazir/Vazir-Regular.eot');
@@ -8,10 +9,11 @@
   font-weight: normal;
   font-display:swap;
 }
+*/
 
 body {
 	direction: rtl;
-	font-family: Vazir;	
+    font-family: 'Vazirmatn', sans-serif;
 }
 
 .highlight,.pagination,pre {direction: ltr; background: black}
