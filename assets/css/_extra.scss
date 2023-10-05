@@ -1,86 +1,73 @@
-/*
-@font-face {
-  font-family: Vazir;
-  src: url('../fonts/vazir/Vazir-Regular.eot');
-  src: url('../fonts/vazir/Vazir-Regular.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/vazir/Vazir-Regular.woff2') format('woff2'),
-       url('../fonts/vazir/Vazir-Regular.woff') format('woff'),
-       url('../fonts/vazir/Vazir-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-display:swap;
-}
-*/
-
 body {
-	direction: rtl;
+    direction: rtl;
     font-family: 'Vazirmatn', sans-serif;
 }
 
-.highlight,.pagination,pre {direction: ltr; background: black}
+.highlight,
+.pagination,
+pre {
+    direction: ltr;
+    background: black
+}
 
-.post-content>pre,
-.post-content .highlight>pre,
-.post-content .highlight>div {
-  text-align: left
+.post-content > pre,
+.post-content .highlight > pre,
+.post-content .highlight > div {
+    text-align: left
 }
 
 
-/* twitter */
-/* #twitter-widget-0{ */
-    /* height: 420px; */
-/* } */
-
-.twitter-tweet.twitter-tweet-rendered{
-	margin:auto;
+.twitter-tweet.twitter-tweet-rendered {
+    margin: auto;
 }
 
 .app-header-social a:not(:last-child) {
-	margin-right: unset;
+    margin-right: unset;
     margin-left: .4em;
 }
 
 @media(min-width:940px) {
-	.app-header {
-		left: unset;
-		right: 0
-	}
+    .app-header {
+        left: unset;
+        right: 0
+    }
 
-	.app-container {
-		margin-left: unset;
-		margin-right: 20rem
-	}
+    .app-container {
+        margin-left: unset;
+        margin-right: 20rem
+    }
 }
 
-.post-meta>div>.icon {
-	margin-right: unset;
-	margin-left: .4em
+.post-meta > div > .icon {
+    margin-right: unset;
+    margin-left: .4em
 }
 
-.post-meta>div {
+.post-meta > div {
     display: block;
 }
 
-.posts-list-item-description>.icon {
-	margin: 0 .4em 0 .4em;
+.posts-list-item-description > .icon {
+    margin: 0 .4em 0 .4em;
 }
 
 .posts-list-item-description {
-	font-family: sans-serif
+    font-family: sans-serif
 }
 
-.tags-list-item>.icon {
-	margin: 0 .4em 0 .4em;
+.tags-list-item > .icon {
+    margin: 0 .4em 0 .4em;
 }
 
 
 @media(min-width:450px) {
-	.tags-list-item:nth-child(even) {
-		margin-left: unset;
-		margin-right: 1em
-	}
+    .tags-list-item:nth-child(even) {
+        margin-left: unset;
+        margin-right: 1em
+    }
 }
 
 .post-content blockquote {
-	border-left: unset;
-	border-right: .4em solid rgba(87, 204, 138, .8);
+    border-left: unset;
+    border-right: .4em solid rgba(87, 204, 138, .8);
 }

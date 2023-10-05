@@ -2,7 +2,7 @@ baseURL = "https://hamid-kord.ir/"
 languageCode = "fa-ir"
 defaultContentLanguage = "fa-ir"
 languageDirection = "rtl"
-title = "نوشته‌های حمید کرد"
+title = "حمید کرد"
 theme = "m10c"
 paginate = 10
 enableRobotsTXT = true
@@ -88,3 +88,8 @@ enableRobotsTXT = true
 #  
 #  lightColor = "#AFE"
 #  primaryColor = "#AFF"
+
+#[params.style]
+  #primaryColor = "#57cc8a"
+  #lightColor = "#57cc8a"
+
