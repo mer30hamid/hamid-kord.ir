@@ -48,6 +48,7 @@ pre {
 }
 
 
+
 .twitter-tweet.twitter-tweet-rendered {
     margin: auto;
 }
@@ -76,6 +77,12 @@ pre {
 
 .post-meta > div {
     display: block;
+}
+
+.posts-list-item h2 {
+    font-size: inherit;
+    margin: 0;
+    font-weight: inherit;
 }
 
 .posts-list-item-description > .icon {
