@@ -1,6 +1,7 @@
 ---
 published: true
 title: مسدود بودن سایت Disqus.com در ایران
+Description : "در ایران خیلی از سایت ها بدون دلیل منطقی فیلتر شده اند، یکی از آنها سایت Disqus.com است!"
 layout: post
 tags: [عمومی]
 date: 2017-06-01 11:08:01 +0430

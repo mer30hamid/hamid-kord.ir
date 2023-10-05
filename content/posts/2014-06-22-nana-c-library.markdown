@@ -1,6 +1,7 @@
 ---
 published: true
 title: آشنایی اولیه با Nana C++ Library!
+Description : "معرفی یک کتابخانه جالب برای ساخت رابط کاربری"
 layout: post
 tags: [برنامه_نویسی, C++, Nana]
 date: 2014-06-22T22:09:36+04:30
