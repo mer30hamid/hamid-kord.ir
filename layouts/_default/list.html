@@ -17,7 +17,7 @@
                 {{ .ReadingTime }} دقیقه
                 -                
                 {{ partial "icon.html" (dict "ctx" $ "name" "message-square" "title" "دیدگاه ها") }}
-                <div class="gc-counter" data-uid="{{ .File.UniqueID }}">0 </div>&nbsp; دیدگاه
+                <span class="gc-counter" data-uid="{{ .File.UniqueID }}">0 </span>&nbsp; دیدگاه
             </span>
         </li>
         {{ end }}
