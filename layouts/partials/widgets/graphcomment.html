@@ -26,7 +26,7 @@
         gc.async = true;
         gc.onload = __semio__onload;
         gc.defer = true;
-        gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
+        gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + (new Date().toISOString().slice(0, 10));
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
     })();
 

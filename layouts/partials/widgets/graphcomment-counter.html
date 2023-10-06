@@ -9,7 +9,7 @@
         gc.async = true;
         gc.onload = __semio__onload__counter;
         gc.defer = true;
-        gc.src = 'https://integration.graphcomment.com/helpers_counter.js?' + Date.now();
+        gc.src = 'https://integration.graphcomment.com/helpers_counter.js?' + (new Date().toISOString().slice(0, 10));
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
     })();
 
