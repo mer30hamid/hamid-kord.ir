@@ -31,6 +31,8 @@ enableRobotsTXT = true
     # avatar = "test.jpg"
     # favicon = "ttt.jpg"
     menu_item_separator = " | "
+    
+    graphcommentId = "hamid-kord"
 
     [[params.social]]
         icon = "github"
