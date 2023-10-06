@@ -95,3 +95,76 @@ enableRobotsTXT = true
   #primaryColor = "#57cc8a"
   #lightColor = "#57cc8a"
 
+[params.csp]
+  childsrc = ["'self'"]
+  fontsrc = ["'self'",
+    "https://use.fontawesome.com",
+    "https://fonts.gstatic.com",
+    "https://public.slidesharecdn.com",
+    "disqus.com",
+    "disquscdn.com",
+    "*.disqus.com",
+    "*.disquscdn.com"]
+  formaction = ["'self'",
+    "https://syndication.twitter.com/",
+    "https://platform.twitter.com",
+    "disqus.com",
+    "disquscdn.com",
+    "*.disqus.com",
+    "*.disquscdn.com"]
+  framesrc = ["'self'",
+    "www.youtube.com",
+    "www.youtube-nocookie.com",
+    "https://platform.twitter.com",
+    "https://syndication.twitter.com",
+    "https://jsfiddle.net",
+    "fiddle.jshell.net",
+    "*.jsfiddle.net",
+    "disqus.com",
+    "disquscdn.com",
+    "*.disqus.com",
+    "*.disquscdn.com",
+    "*.graphcomment.com",
+    "graphcomment.com"]
+  imgsrc = ["'self'",
+    "https://www.google-analytics.com",
+    "https://platform.twitter.com",
+    "*.twimg.com",
+    "https://syndication.twitter.com",
+    "data:",
+    "https://files.kuula.io",
+    "disqus.com",
+    "disquscdn.com",
+    "*.disqus.com",
+    "*.disquscdn.com"]
+  objectsrc = ["'none'"]
+  stylesrc = ["'self'",
+    "'unsafe-inline'",
+    "https://use.fontawesome.com",
+    "https://fonts.googleapis.com",
+    "https://www.google.com",
+    "https://platform.twitter.com",
+    "*.twimg.com",
+    "disqus.com",
+    "disquscdn.com",
+    "*.disqus.com",
+    "*.disquscdn.com"]
+  scriptsrc = ["'self'",
+    "'unsafe-inline'",
+    "https://platform.twitter.com",
+    "https://cdn.syndication.twimg.com",
+    "*.amazon-adsystem.com",
+    "https://www.google-analytics.com",
+    "disqus.com",
+    "disquscdn.com",
+    "*.disqus.com",
+    "*.disquscdn.com",
+    "*.graphcomment.com"
+    ]
+  connectsrc = ["'self'",
+    "disqus.com",
+    "disquscdn.com",
+    "*.disqus.com",
+    "*.disquscdn.com",
+    "*.graphcomment.com",
+    "graphcomment.com"]
