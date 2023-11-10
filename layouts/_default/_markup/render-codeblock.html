@@ -2,7 +2,7 @@
 {{ $lang        := .Attributes.lang  | default .Type }}
 {{ $button_text := printf "%s" " Code 👇" | printf "%s%s" $lang | printf "%s%s" "Copy this " }}
 <div class="code-block">
-<button class="copy-code-button" onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText);b=this;b.innerText='Copied 👌';setTimeout(function() { b.innerText='{{$button_text}}' }, 2500);"> {{$button_text}} </button> 
+<button class="copy-code-button" onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText.replaceAll('\n\n','\n'));b=this;b.innerText='Copied 👌';setTimeout(function() { b.innerText='{{$button_text}}' }, 2500);"> {{$button_text}} </button> 
 {{ if transform.CanHighlight $lang }}
 {{ highlight .Inner $lang }}
 {{else}}
