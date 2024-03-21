@@ -34,6 +34,11 @@ body {
     font-family: 'Vazirmatn', sans-serif;
 }
 
+a {
+    word-wrap: break-word;
+    max-width:300px;
+}
+
 .highlight,
 .pagination,
 pre {
