@@ -5,6 +5,7 @@ Description : "یادداشتی برای اینکه چطور Alpine Linux رو �
 layout: post
 tags: [سیستم عامل, sysadmin, Alpine, Linux, Rocky Linux]
 date: 2024-03-21T12:12:06+03:30
+tweet: https://twitter.com/mer30hamid/status/1770807757563678895
 ---
 
 ## مقدمه
