@@ -17,10 +17,12 @@ tweet: https://twitter.com/mer30hamid/status/1774741022397935866
 <script>
 const numOfblocks = 30;
 let nthDay = parseInt(new Date().toLocaleDateString('fa-IR-u-nu-latn', { day: 'numeric' }));
+let passedMonth = parseInt(new Date().toLocaleDateString('fa-IR-u-nu-latn', { month: 'numeric' })) - 1;
+let nthDayOfYear = passedMonth <= 6 ? (passedMonth * 31) + nthDay : (6 * 31) + ((passedMonth - 6) * 30) + nthDay
 let filledBlocks = Math.round((nthDay * numOfblocks) / 365);
 const formatter = new Intl.NumberFormat('en-US', { style: 'percent' });
-let percentOfYearPassed = formatter.format(nthDay/365);
-let progressTitle = `${nthDay} روز از سال رفت :\)`;
+let percentOfYearPassed = formatter.format(nthDayOfYear/365);
+let progressTitle = `${nthDayOfYear} روز از سال رفت :\)`;
 let progressBody = percentOfYearPassed + " " + ('█').repeat(filledBlocks) + ('░').repeat(numOfblocks-filledBlocks);
 document.write(progressTitle + "<br><div dir=ltr>" + progressBody + "<\/div>");
 let tweetText = progressTitle + "\n" + progressBody;
@@ -39,10 +41,12 @@ document.write(
 ```javascript
 const numOfblocks = 30;
 let nthDay = parseInt(new Date().toLocaleDateString('fa-IR-u-nu-latn', { day: 'numeric' }));
+let passedMonth = parseInt(new Date().toLocaleDateString('fa-IR-u-nu-latn', { month: 'numeric' })) - 1;
+let nthDayOfYear = passedMonth <= 6 ? (passedMonth * 31) + nthDay : (6 * 31) + ((passedMonth - 6) * 30) + nthDay
 let filledBlocks = Math.round((nthDay * numOfblocks) / 365);
 const formatter = new Intl.NumberFormat('en-US', { style: 'percent' });
-let percentOfYearPassed = formatter.format(nthDay/365);
-let progressTitle = `${nthDay} روز از سال رفت :\)`;
+let percentOfYearPassed = formatter.format(nthDayOfYear/365);
+let progressTitle = `${nthDayOfYear} روز از سال رفت :\)`;
 let progressBody = percentOfYearPassed + " " + ('█').repeat(filledBlocks) + ('░').repeat(numOfblocks-filledBlocks);
 document.write(progressTitle + "<br><div dir=ltr>" + progressBody + "<\/div>");
 let tweetText = progressTitle + "\n" + progressBody;
