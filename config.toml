@@ -136,7 +136,8 @@ enableRobotsTXT = true
     "disqus.com",
     "disquscdn.com",
     "*.disqus.com",
-    "*.disquscdn.com"]
+    "*.disquscdn.com"
+    ]
   objectsrc = ["'none'"]
   stylesrc = ["'self'",
     "'unsafe-inline'",
@@ -148,7 +149,9 @@ enableRobotsTXT = true
     "disqus.com",
     "disquscdn.com",
     "*.disqus.com",
-    "*.disquscdn.com"]
+    "*.disquscdn.com",
+    "*.jsdelivr.net"
+    ]
   scriptsrc = ["'self'",
     "'unsafe-inline'",
     "https://platform.twitter.com",
@@ -159,7 +162,8 @@ enableRobotsTXT = true
     "disquscdn.com",
     "*.disqus.com",
     "*.disquscdn.com",
-    "*.graphcomment.com"
+    "*.graphcomment.com",
+    "*.jsdelivr.net"
     ]
   connectsrc = ["'self'",
     "disqus.com",
