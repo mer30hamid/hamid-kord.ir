@@ -141,7 +141,7 @@ noComment: true
 
 
 body{
-    background-image: url("/bg/3.png") !important;
+    background-image: url("/bg/3.jpg") !important;
     background-attachment: fixed;
 }
 
