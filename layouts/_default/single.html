@@ -41,7 +41,7 @@
             </div>
         </div>
         {{end}}
-        {{if (not .Site.IsServer)}}
+        {{if and (not .Site.IsServer) (not .Params.noComment) }}
         <div class="container">
             <div class="section">
                 <h2 class="title is-4" id="comments">دیدگاه ها:</h2>

@@ -3,6 +3,7 @@ title: پیوندهای مفید
 description: "لینک برنامه ها، پروژه ها و سایت های مورد علاقه من"
 draft: false
 type: page
+noComment: true
 ---
 
 <table id="myCards">
