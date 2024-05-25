@@ -88,33 +88,27 @@ type: page
 }
 
 
-:root {
-  font-size: 20px;
-}
 
 .card {
+  font-size: 1.1em;
   color: #224;
-  max-width: 300px;
+  max-width: 500px;
   min-height: 200px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 15px;
-  max-width: 500px;
-  height: 300px;
-  padding: 35px;
-
+  padding: 0.5em;
   border: 1px solid rgba(255, 255, 255, .25);
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.45);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
-
   backdrop-filter: blur(15px);
 }
 
-.card-footer {
+.card-footer a{
   font-size: 0.75em;
-  color: #446;
 }
 
 .card-footer a.icon {
@@ -151,14 +145,14 @@ body{
 }
 
 
-input.gridjs-input, .gridjs-search-input{
+/* input.gridjs-input, .gridjs-search-input{
     min-height: 40px;
     margin: 0 20px 10px 0;
     width: 250px;
     padding: 0 15px 0 15px;
     border-radius: 25px;
     background-color: #e7fff1f5;
-}
+} */
 
 .gridjs-message{
     color: oldlace
