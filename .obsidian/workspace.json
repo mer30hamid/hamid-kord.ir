@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "4d41042bf84c8121",
+    "type": "split",
+    "children": [
+      {
+        "id": "29e994a3fa09df23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4cedd0f052037de4",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "config.toml",
+                "staged": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cb249ee272504d79",
+    "type": "split",
+    "children": [
+      {
+        "id": "fdf9bb97067674e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "41bdd821495a897e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b69c3f9d8099d1e5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5301023d7470bc89",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 310.5
+  },
+  "right": {
+    "id": "d3a027b408280b5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "3559c9105d74a1fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "563698f082d71d35",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3c4e9a9d3d1108ee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4f2f95fcceef0d7e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "afbe922f886da154",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "b2cc8832b41cd438",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 462.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b2cc8832b41cd438",
+  "lastOpenFiles": [
+    "New Text Document.txt",
+    "content/posts/alpine-linux-in-windows-wsl.md",
+    "content/posts/DoH-using-php.md",
+    "content/posts/tweet-this-year-days-left-percentage.md",
+    "content/posts/using-acrylic-dns-proxy.md",
+    "content/posts/Persian-Jalali-Shamsi-Date-In-Hugo.md",
+    "hamid-kord.ir/README.md",
+    "O.Daily/Daily/1403-05-12.md",
+    "hamid-kord.ir/themes/m10c/resources/_gen/assets/scss/css/main.scss_e86386c8bae1cd02295de71a1be078d6.json",
+    "hamid-kord.ir/themes/m10c/resources/_gen/assets/scss/css/main.scss_e86386c8bae1cd02295de71a1be078d6.content",
+    "hamid-kord.ir/themes/m10c/resources/_gen/assets/scss/css",
+    "hamid-kord.ir/themes/m10c/resources/_gen/assets/scss",
+    "hamid-kord.ir/themes/m10c/exampleSite/content/posts/test-9.md",
+    "hamid-kord.ir/themes/m10c/exampleSite/content/posts/test-8.md",
+    "hamid-kord.ir/themes/m10c/exampleSite/content/posts/test-7.md",
+    "hamid-kord.ir/themes/m10c/exampleSite/content/posts/test-6.md",
+    "hamid-kord.ir/themes/m10c/exampleSite/content/posts/test-5.md",
+    "hamid-kord.ir/themes/m10c/exampleSite/content/posts/test-4.md",
+    "hamid-kord.ir/themes/m10c/exampleSite/content/posts/test-3.md",
+    "hamid-kord.ir/themes/m10c/exampleSite/content/posts/test-2.md",
+    "hamid-kord.ir/themes/m10c/exampleSite/content/posts/test-1.md",
+    "hamid-kord.ir/themes/m10c/exampleSite/content/posts/migrate-from-jekyll.md",
+    "hamid-kord.ir/themes/m10c/exampleSite/content/posts/hugoisforlovers.md",
+    "hamid-kord.ir/themes/m10c/exampleSite/content/posts/goisforlovers.md",
+    "hamid-kord.ir/themes/m10c/exampleSite/content/posts/creating-a-new-theme.md",
+    "hamid-kord.ir/themes/m10c/assets/css/components/_tags_list.scss",
+    "hamid-kord.ir/themes/m10c/assets/css/components/_tag.scss",
+    "hamid-kord.ir/themes/m10c/assets/css/components/_posts_list.scss",
+    "hamid-kord.ir/themes/m10c/assets/css/components/_post.scss",
+    "hamid-kord.ir/themes/m10c/assets/css/components/_pagination.scss",
+    "hamid-kord.ir/themes/m10c/assets/css/components/_icon.scss",
+    "hamid-kord.ir/themes/m10c/exampleSite/content/about.md",
+    "hamid-kord.ir/themes/m10c/static/avatar.jpg",
+    "hamid-kord.ir/themes/m10c/images/tn.png",
+    "hamid-kord.ir/themes/m10c/images/screenshot.png",
+    "hamid-kord.ir/themes/m10c/images/cover.png",
+    "hamid-kord.ir/themes/m10c/README.md",
+    "hamid-kord.ir/themes/m10c/LICENSE.md",
+    "hamid-kord.ir/static/bg/9.png",
+    "hamid-kord.ir/static/bg/8.png",
+    "hamid-kord.ir/static/bg/7.png",
+    "hamid-kord.ir/static/bg/6.png",
+    "hamid-kord.ir/static/bg/5.png",
+    "hamid-kord.ir/static/bg/4.png",
+    "hamid-kord.ir/content/posts/using-acrylic-dns-proxy.md",
+    "hamid-kord.ir/content/posts/tweet-this-year-days-left-percentage.md",
+    "Untitled.canvas",
+    "بی‌نام.canvas"
+  ]
+}
