@@ -29,7 +29,7 @@ enableRobotsTXT = true
 [params]
     author = "حمید کرد"
     Description = "وبلاگ شخصی حمید کرد، توسعه دهنده نرم افزار، علاقه مند به موضوعات مربوط به دنیای فناوری"
-    EnableTwitterEmbed = true
+    EnableTwitterEmbed = false
     # avatar = "test.jpg"
     # favicon = "ttt.jpg"
     menu_item_separator = " | "
@@ -59,7 +59,7 @@ enableRobotsTXT = true
     [[params.social]]
         icon = "twitter"
         name = "توییتر حمید کرد"
-        url = "https://twitter.com/mer30hamid"
+        url = "https://x.com/mer30hamid"
         
 [markup.goldmark.renderer]
   unsafe= true
@@ -108,8 +108,8 @@ enableRobotsTXT = true
     "*.disqus.com",
     "*.disquscdn.com"]
   formaction = ["'self'",
-    "https://syndication.twitter.com/",
-    "https://platform.twitter.com",
+    "https://syndication.x.com/",
+    "https://platform.x.com",
     "disqus.com",
     "disquscdn.com",
     "*.disqus.com",
@@ -117,8 +117,8 @@ enableRobotsTXT = true
   framesrc = ["'self'",
     "www.youtube.com",
     "www.youtube-nocookie.com",
-    "https://platform.twitter.com",
-    "https://syndication.twitter.com",
+    "https://platform.x.com",
+    "https://syndication.x.com",
     "https://jsfiddle.net",
     "fiddle.jshell.net",
     "*.jsfiddle.net",
@@ -130,9 +130,9 @@ enableRobotsTXT = true
     "graphcomment.com"]
   imgsrc = ["'self'",
     "https://www.google-analytics.com",
-    "https://platform.twitter.com",
+    "https://platform.x.com",
     "*.twimg.com",
-    "https://syndication.twitter.com",
+    "https://syndication.x.com",
     "data:",
     "https://files.kuula.io",
     "disqus.com",
@@ -146,7 +146,7 @@ enableRobotsTXT = true
     "https://use.fontawesome.com",
     "https://fonts.googleapis.com",
     "https://www.google.com",
-    "https://platform.twitter.com",
+    "https://platform.x.com",
     "*.twimg.com",
     "disqus.com",
     "disquscdn.com",
@@ -156,7 +156,7 @@ enableRobotsTXT = true
     ]
   scriptsrc = ["'self'",
     "'unsafe-inline'",
-    "https://platform.twitter.com",
+    "https://platform.x.com",
     "https://cdn.syndication.twimg.com",
     "*.amazon-adsystem.com",
     "https://www.google-analytics.com",

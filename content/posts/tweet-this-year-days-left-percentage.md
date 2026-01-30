@@ -4,7 +4,7 @@ title: چقدر از سال رفته؟ توییت کنید :))
 Description : "هر روز که این صفحه رو باز کنید میشه ببینید و توییت کنید چقدر از سال رفته!"
 layout: post
 tags: [جاوااسکریپت, twitter, تاریخ-جلالی,  برنامه_نویسی, Hugo]
-tweet: https://twitter.com/mer30hamid/status/1774741022397935866
+tweet: https://x.com/mer30hamid/status/1774741022397935866
 ---
 
 
@@ -35,7 +35,7 @@ let progressBody = percentOfYearPassed + " " + ('█').repeat(filledBlocks) + ('
 document.write(progressTitle + "<br><div dir=ltr>" + progressBody + "<\/div>");
 let tweetText = progressTitle + "\n" + progressBody;
 document.write(
-    '<a class="tweet-button" href="https://twitter.com/intent/tweet?text=' +
+    '<a class="tweet-button" href="https://x.com/intent/tweet?text=' +
     encodeURIComponent(tweetText) +
     '" target="_blank">👈توییت کنید!👉</a>');
 </script>
@@ -68,7 +68,7 @@ let progressBody = percentOfYearPassed + " " + ('█').repeat(filledBlocks) + ('
 document.write(progressTitle + "<br><div dir=ltr>" + progressBody + "<\/div>");
 let tweetText = progressTitle + "\n" + progressBody;
 document.write(
-    '<a class="tweet-button" href="https://twitter.com/intent/tweet?text=' +
+    '<a class="tweet-button" href="https://x.com/intent/tweet?text=' +
     encodeURIComponent(tweetText) +
     '" target="_blank">👈توییت کنید!👉</a>');
 ```

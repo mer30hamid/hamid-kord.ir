@@ -4,7 +4,7 @@ title: لینوکس آلپاین در wsl ویندوز
 Description : "یادداشتی برای اینکه چطور Alpine Linux رو داخل WSL ویندوز داشته باشیم"
 layout: post
 tags: [سیستم عامل, sysadmin, Alpine, Linux, Rocky Linux]
-tweet: https://twitter.com/mer30hamid/status/1770807757563678895
+tweet: https://x.com/mer30hamid/status/1770807757563678895
 ---
 
 ## مقدمه
