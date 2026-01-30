@@ -22,7 +22,7 @@
         {{ end }}
     </ul>
     {{ partial "pagination.html" $ }}
-    {{if (not .Site.IsServer)}}
+    {{if (not hugo.IsServer)}}
       {{ partial "widgets/graphcomment-counter.html" . }}
     {{end}}
 

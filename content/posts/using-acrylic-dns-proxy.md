@@ -1,10 +1,9 @@
 ---
-published: true
+published: "2022-12-09T19:45:02+04:30"
 title: استفاده از DoH در ویندوز با کمک نرم افزار Acrylic DNS Proxy
 Description : "در این پست به معرفی روشی برای استفاده از DoH در ویندوز با کمک نرم افزار Acrylic DNS Proxy پرداخته شده."
 layout: post
 tags: [Proxy, شبکه, DNS, DoH]
-date: 2022-12-09T19:45:02+04:30
 tweet: https://twitter.com/mer30hamid/status/1601310172965896198
 ---
 

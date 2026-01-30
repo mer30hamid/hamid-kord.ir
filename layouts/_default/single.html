@@ -33,7 +33,7 @@
     </div>
     <div class="post-footer">
         {{/* template "_internal/disqus.html" . */}}
-        {{if and (.Params.tweet) (not .Site.IsServer) $.Site.Params.EnableTwitterEmbed}}
+        {{if and (.Params.tweet) (not hugo.IsServer) $.Site.Params.EnableTwitterEmbed}}
         <div class="container has-background-white">
             <div class="section">
                 <h2 class="title is-4">بحث در توییتر:</h2>
@@ -41,7 +41,7 @@
             </div>
         </div>
         {{end}}
-        {{if and (not .Site.IsServer) (not .Params.noComment) }}
+        {{if and (not hugo.IsServer) (not .Params.noComment) }}
         <div class="container">
             <div class="section">
                 <h2 class="title is-4" id="comments">دیدگاه ها:</h2>

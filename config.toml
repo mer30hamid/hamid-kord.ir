@@ -4,8 +4,10 @@ defaultContentLanguage = "fa-ir"
 languageDirection = "rtl"
 title = "حمید کرد"
 theme = "m10c"
-paginate = 10
 enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
 
 [menu]
   [[menu.main]]

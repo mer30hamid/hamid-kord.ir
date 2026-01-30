@@ -1,10 +1,9 @@
 ---
-published: true
+published: "2024-04-01T13:12:06+03:30"
 title: چقدر از سال رفته؟ توییت کنید :))
 Description : "هر روز که این صفحه رو باز کنید میشه ببینید و توییت کنید چقدر از سال رفته!"
 layout: post
 tags: [جاوااسکریپت, twitter, تاریخ-جلالی,  برنامه_نویسی, Hugo]
-date: 2024-04-01T13:12:06+03:30
 tweet: https://twitter.com/mer30hamid/status/1774741022397935866
 ---
 
