@@ -1,6 +1,8 @@
 ---
 title: "پروژه Dnsdiag و لیست Dns ایرانی و جهانی"
-published: 2026-01-30T18:59:09+03:30
+Description : "معرفی مختصر پروژه Dnsdiag و لیست Dns ایرانی و جهانی"
+published: "2026-01-30T18:59:09+03:30"
+tweet: "https://x.com/mer30hamid/status/2017291522375364645?s=20"
 tags: [برنامه_نویسی, شبکه, DNS, DoH]
 layout: post
 ---

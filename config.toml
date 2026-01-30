@@ -29,7 +29,7 @@ enableRobotsTXT = true
 [params]
     author = "حمید کرد"
     Description = "وبلاگ شخصی حمید کرد، توسعه دهنده نرم افزار، علاقه مند به موضوعات مربوط به دنیای فناوری"
-    EnableTwitterEmbed = false
+    EnableTwitterEmbed = true
     # avatar = "test.jpg"
     # favicon = "ttt.jpg"
     menu_item_separator = " | "
